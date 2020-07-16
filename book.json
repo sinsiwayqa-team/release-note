@@ -1,0 +1,57 @@
+{
+	"plugins": [ "theme-api", "hide-published-with", "multipart" ],
+	"pluginsConfig": {
+		"theme-api": {
+			"languages": [
+				{
+					"lang": "js",
+					"name": "JavaScript",
+					"default": true
+				},
+				{
+					"lang": "go",
+					"name": "Go"
+				}
+			]
+		}
+	},
+	
+	"title": "Petra V4.1.0 Release Note",
+	
+	"links": {
+		"sidebar": {
+			"Warp to Sinsiway Site": "http://sinsiway.com",
+			"Warp to Sinsiway Blog": "http://blog.sinsiway.com"
+		}
+	},
+	
+	"styles": {
+	    "website": "styles/website.css",
+	    "ebook": "styles/ebook.css",
+	    "pdf": "styles/pdf.css",
+	    "mobi": "styles/mobi.css",
+	    "epub": "styles/epub.css"
+	},
+	
+	"pdf": {
+	
+		"fontSize": 9,
+		
+		"paperSize": "a4",
+		
+		"fontFamily": "sans",
+		
+		"chapterMark": "both",
+		
+		
+		"margin": {
+			"right": 42,
+			"left": 42,
+			"top": 56,
+			"bottom": 56
+		},
+		
+		"headerTemplate": "_TITLE_",
+		"footerTemplate": "_SECTION_"
+	}
+}
