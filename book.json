@@ -1,6 +1,9 @@
 {
-	"plugins": [ "theme-api", "hide-published-with", "multipart" ],
+	"plugins": [ "theme-api", "hide-published-with", "multipart", "versions" ],
 	"pluginsConfig": {
+		"versions": {
+			"type": "branches"
+		},
 		"theme-api": {
 			"languages": [
 				{
